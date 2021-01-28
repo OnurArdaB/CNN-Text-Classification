@@ -1,6 +1,7 @@
 # CNN-Text Classification
- Turkish Text Classification using Convolutional Neural Networks with similar architectures described by Yoon Kim
+ Turkish Text Classification using Convolutional Neural Networks with similar architectures described by Yoon Kim.
  
+# Architectures 
  ## CNN-rand
  ```python
  def rand_model():
@@ -147,3 +148,4 @@ def non_static_model():
     return model
 ```
  Similar to static model with only embedding layer is trained with the entire network by setting ```python trainable=True```.
+ 
