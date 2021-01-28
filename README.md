@@ -47,7 +47,7 @@
  
  ```
  
-This model has an embedding layer that contains randomly generated embeddings trained with the entire network. It can be observed that ```python trainable=True``` allows the network to train the embedding layer which is set to False in cases where an pre-trained embedding layer exists. LSTM layer for *interpretation* part also showed a performance increase.
+This model has an embedding layer that contains randomly generated embeddings trained with the entire network. It can be observed that ``` trainable=True``` allows the network to train the embedding layer which is set to False in cases where an pre-trained embedding layer exists. LSTM layer for *interpretation* part also showed a performance increase.
 
 ## CNN-static
  ```python
@@ -147,5 +147,5 @@ def non_static_model():
     print(model.summary())
     return model
 ```
- Similar to static model with only embedding layer is trained with the entire network by setting ```python trainable=True```.
+ Similar to static model with only embedding layer is trained with the entire network by setting ``` trainable=True```.
  
